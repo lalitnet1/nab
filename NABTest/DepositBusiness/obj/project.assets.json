@@ -185,11 +185,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\Lalit\\source\\repos\\NABTest\\DepositBusiness\\DepositBusiness.csproj",
+      "projectUniqueName": "D:\\Git\\nab\\NABTest\\DepositBusiness\\DepositBusiness.csproj",
       "projectName": "DepositBusiness",
-      "projectPath": "c:\\Users\\Lalit\\source\\repos\\NABTest\\DepositBusiness\\DepositBusiness.csproj",
+      "projectPath": "D:\\Git\\nab\\NABTest\\DepositBusiness\\DepositBusiness.csproj",
       "packagesPath": "C:\\Users\\Lalit\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\Lalit\\source\\repos\\NABTest\\DepositBusiness\\obj\\",
+      "outputPath": "D:\\Git\\nab\\NABTest\\DepositBusiness\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
