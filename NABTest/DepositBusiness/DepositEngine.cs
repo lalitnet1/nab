@@ -26,7 +26,18 @@ namespace DepositBusiness
             }
         }
 
-        public DepositEngine()
+        #region Singleton
+
+        private static readonly Lazy<DepositEngine> _instance = new Lazy<DepositEngine>(() => new DepositEngine());
+
+        public static DepositEngine Instance
+        {
+            get { return _instance.Value; }
+        }
+
+        #endregion
+
+        private DepositEngine()
         {
             MIN_INITIAL_MATURITY_AMOUNT = 70000000;
             MAX_INITIAL_MATURITY_AMOUNT = 100000000;
